@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 5%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: solid black ; 
+    
+}
+
+.perfil{
+    border: solid;
+    width: 80%;
+    
+}
+
+.perfil h2{
+    margin: 2%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.perfil p{
+    margin: 2%;
+}
+
+.perfil h1 {
+
+    font-size: 40px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabecalho{
+    margin: 3%;
+}
+
+.cabecalho a {
+    font-size: 18px;
+}
+
+.cabecalho #link2 {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#link2:hover{
+    text-decoration: underline;
+}
+
+
+.cabecalho #link1 {
+    margin-left: 31%;
+    text-decoration: none;
+}
+
+#link1:hover{
+    text-decoration: underline;
+}
+
+.habilidades{
+    margin: 5%;
+    border: solid;
+
+}
+
+.habilidades ul{
+    list-style: none;
+    margin: 4%;
+    
+    text-align: center;
+}
+
+.dados{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+
+    margin-bottom: 4%;
+}
+
+.tecnologias {
+
+    text-align: center;
+    border: solid;
+
+    margin-top: 5%;
+
+}
+
+.tecnologias ul {
+    list-style: none;
+}

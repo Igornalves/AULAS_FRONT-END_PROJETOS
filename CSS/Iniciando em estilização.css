@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    margin: 50px;
+    padding: 50px;
+    color: black;
+
+}
+h1{
+    font-size: 55px;
+    margin: 50px;   
+}
+ol{
+    font-size: 15px;
+    margin: 55px;
+
+}
+p{
+    font-size: 20px;
+}
