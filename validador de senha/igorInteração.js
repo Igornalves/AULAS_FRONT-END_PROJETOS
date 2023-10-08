@@ -1,28 +1,40 @@
-function testar(){
-    let li1 = document.getElementById('li1')
-    let li2 = document.getElementById('li2')
-    let li3 = document.getElementById('li3')
+function testar() {
 
-    let senha = document.getElementById('senha')
+    let li1 = document.getElementById('li1');
+    let li2 = document.getElementById('li2');
+    let li3 = document.getElementById('li3');
+    let li4 = document.getElementById('li4');
 
-    console.log('a senha digitada foi', senha.value)
+    const senha = document.getElementById('senha');
 
-    if(senha.value.length >= 8) {
+    // console.log('a senha digitada foi', senha.value);
+
+    if (senha.value.length >= 8) {
         li1.className = 'ok'
-    }else{
+    }
+    else {
         li1.className = ''
     }
 
-    if(/[A-Z]/g.test(senha.value)){
+    if (/[A-Z]/g.test(senha.value)) {
         li2.className = 'ok'
-    } else{
+    }
+    else {
         li2.className = ' '
     }
 
-    if (/[0-9]/g.test(senha.value)){
+    if (/[0-9]/g.test(senha.value)) {
         li3.className = 'ok'
-    } else {
+    }
+    else {
         li3.className = ' '
+    }
+
+    if (/[a-z]/g.test(senha.value.length)) {
+        li4.className = 'ok'
+    }
+    else {
+        li4.className = ' '
     }
 
 }

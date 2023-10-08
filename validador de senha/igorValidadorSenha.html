@@ -4,49 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/Projetos e Execicios Front-end/validador de senha/igorInteração.js"></script>
-    
-    <link rel="stylesheet" href="/Projetos e Execicios Front-end/validador de senha/igorEstilizando.css">
-    
-    <title>Validador de senha</title>
+    <script src="/AULAS_FRONT-END_PROJETOS/validador de senha/igorInteração.js"></script>
+
+    <link rel="stylesheet" href="/AULAS_FRONT-END_PROJETOS/validador de senha/igorEstilizando.css">
+
+    <title> Validador de senha </title>
 </head>
 
 <body>
-    
-    <div class="main">
 
-        <div class="frame rotate">
+    <div class="conteiner">
 
-            <div class="moldura">
-                <h1 class="rotate">
-                    Informe sua senha
-                </h1>
-            </div>
+        <div class="form-imagem">
+            <img src="https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg.webp"
+                alt="paisagem">
         </div>
 
-        <input type="password" name="senha" id="senha">
+        <div class="main">
 
-        <button onclick="testar()">Enviar</button>
+            <div class="titulo">
+                <h1>
+                    Validador de senha
+                </h1>
 
-        <ul>
-            <li id="li1">
-                Precisa ter mais de 8 caracteres
-            </li>
-            <li id="li2">
-                Precisa ter uma letra maiúscula
-            </li>
-            <li id="li3">
-                Precisa ter um número
-            </li>
-        </ul>
+                <h2>
+                    Obs:. Este validador deve ser aberto apenas no computador, não poder se aberto no celular.
+                </h2>
+            </div>
 
-    <div class="imagem-conteiner">
+            <div class="local">
 
-        <img src="" alt="">
-        
+                <input type="password" name="senha" placeholder="Digite seu senha" id="senha" required>
+
+                <button onclick="testar()">Enviar</button>
+                
+            </div>
+
+            <ul>
+                <li id="li1">
+                    Precisa ter mais de 8 caracteres
+                </li>
+
+                <li id="li2">
+                    Contém pelo menos uma letra maiúscula.
+                </li>
+
+                <li id="li3">
+                    Contém pelo menos um número
+                </li>
+
+                <li id="li4">
+                    Contém pelo menos uma letra minúscula.
+                </li>
+
+            </ul>
+
+        </div>
+
     </div>
-
-</div>
 
 </body>
 
