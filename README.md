@@ -20,9 +20,9 @@ Em algums desse projetos dexarei aqui cometarios que ajudaram a entender um pouc
 
 Aqui é os links de outros repositorios que tenho em meu GitHub que possa se interressa:
 
-- <a href="https://github.com/Igornalves/Aprendendo_Linguagem-C" target="_blank"><img src="https://img.shields.io/badge/GitHub-696969?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-- <a href="https://github.com/Igornalves/Aprendendo_linguagem-Java" target="_blank"><img src="https://img.shields.io/badge/GitHub-696969?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-- <a href="https://github.com/Igornalves/Aprendendo_Linguagem-Python" target="_blank"><img src="https://img.shields.io/badge/GitHub-696969?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+- [Aprendendo_Linguagem-C](https://github.com/Igornalves/Aprendendo_Linguagem-C)
+- [Aprendendo_linguagem-Java](https://github.com/Igornalves/Aprendendo_linguagem-Java)
+- [Aprendendo_Linguagem-Python](https://github.com/Igornalves/Aprendendo_Linguagem-Pytho)
 
 ---
 
