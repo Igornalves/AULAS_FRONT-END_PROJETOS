@@ -1,1 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* estilização de fundo para a tela  */
+    background-image: url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+
+    /* configuracoes para a tela fica fica bem estilizada */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 5000px;
+    justify-content: center;
+    width: 150%;
+    height: 55vh;
+    padding: 50px;
+    background-color: darkslateblue;
+    border-radius: 3%;
+    right: 41%;
+    box-shadow: 5px 10px 10px rgb(23, 22, 22) ;
+    
+}
+
+.main .titulo{
+    position: absolute;
+    bottom: 71% ;
+}
+
+.main .titulo h1 {
+    font-size: 500%;
+    text-align: left;
+}
+.main .titulo p{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.caixa-dados {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 29%;
+    padding: 0%;
+}
+
+.caixa-dados .email input{
+    text-align: center;
+    width: 60%;
+    height: 10px;
+    padding: 12px;
+    margin-bottom: 4%;
+}
+
+.caixa-dados .senha input{
+    text-align: center;
+    width: 60%;
+    height: 10px;
+    padding: 12px;
+}
+
+.caixa-dados .email i{
+    border: solid 1px;
+    background-color: dimgray;
+    font-size: 30px;
+}
+
+.caixa-dados .senha i{
+    border: solid 1px;
+    background-color: dimgray;
+    font-size: 30px;
+}
+
