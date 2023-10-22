@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 .main {
@@ -59,6 +60,7 @@ body {
     text-align: center;
     margin-top: 29%;
     padding: 0%;
+    margin-left: ;
 }
 
 .caixa-dados .email input{
