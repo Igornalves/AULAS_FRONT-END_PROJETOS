@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+    box-sizing: border-box;
+}
+
+/* aqui nesse codigo a gente a utilização do flexbox juntamente com comandos que só funcionam com o proprio flexbox  */
+
+body {
+    width: 100vmax;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 4, 255);
+}
+
+.imagens {
+    background-color: #F2E3D5;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 2%; */
+}
+
+.grupo1 {
+    background-color: #0FC2C0;
+    width: 90px;
+    height: 90px;
+}
+
+.grupo2 {
+    background-color: #0CABA8;
+    width: 90px;
+    height: 90px;
+}
+
+.grupo3 {
+    background-color: #008F8C;
+    width: 90px;
+    height: 90px;
+}
+
+.grupo4 {
+    background-color: #015958;
+    width: 90px;
+    height: 90px;
+}
+
+.sistema {
+    background-color: #C43302;
+    width: 600px;
+    margin-left: 40px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%; 
+    color: white;
+}
+
+/* nesse codigo temos a utilização do align-self que pode apenas mexar na div filho da div principal */
+
+.pro1 {
+    background-color: #010221;
+    /* text-align: center; */
+    width: 90px;
+    height: 90px;
+    align-self: flex-end;
+}
+
+.pro2 {
+    background-color: #0A7373;
+    width: 90px;
+    height: 90px;
+    /* align-self:flex-start; */
+}
+
+.pro3 {
+    background-color: #B7BF99;
+    width: 90px;
+    height: 90px;
+    align-self:flex-start;
+}
+
+.pro4 {
+    background-color: #EDAA25;
+    width: 90px;
+    height: 90px;
+    align-self: center;
+}

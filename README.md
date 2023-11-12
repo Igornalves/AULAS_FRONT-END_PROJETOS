@@ -20,9 +20,11 @@ Em algums desse projetos dexarei aqui cometarios que ajudaram a entender um pouc
 
 Aqui é os links de outros repositorios que tenho em meu GitHub que possa se interressa:
 
-- [Aprendendo_Linguagem-C](https://github.com/Igornalves/Aprendendo_Linguagem-C)
-- [Aprendendo_linguagem-Java](https://github.com/Igornalves/Aprendendo_linguagem-Java)
-- [Aprendendo_Linguagem-Python](https://github.com/Igornalves/Aprendendo_Linguagem-Python)
+- [Linguagem-C](https://github.com/Igornalves/Linguagem-C)
+- [Projeto_Site-WhatsappBot](https://github.com/Igornalves/Projeto_Site-WhatsappBot)
+- [Linguagem-Python](https://github.com/Igornalves/Linguagem-Python)
+- [Linguagem-Java](https://github.com/Igornalves/Linguagem_Java)
+- [Biblioteca-React](https://github.com/Igornalves/Biblioteca-React)
 
 ---
 
