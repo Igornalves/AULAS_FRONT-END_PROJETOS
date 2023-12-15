@@ -3,6 +3,8 @@
 * {
     margin: 0%;
     padding: 0%;
+    outline: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,75 +20,18 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-  
-}
-
-.main {
-    
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    max-width: 5000px;
     justify-content: center;
-    width: 150%;
-    height: 55vh;
-    padding: 50px;
-    background-color: darkslateblue;
-    border-radius: 3%;
-    right: 41%;
-    box-shadow: 5px 10px 10px rgb(23, 22, 22) ;
-    
 }
 
-.main .titulo{
-    position: absolute;
-    bottom: 71% ;
-}
-
-.main .titulo h1 {
-    font-size: 500%;
-    text-align: left;
-}
-.main .titulo p{
-    text-decoration: underline;
-    font-size: 20px;
-}
-
-.caixa-dados {
+.principal{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 29%;
-    padding: 0%;
-    margin-left: ;
-}
-
-.caixa-dados .email input{
-    text-align: center;
-    width: 60%;
-    height: 10px;
-    padding: 12px;
-    margin-bottom: 4%;
-}
-
-.caixa-dados .senha input{
-    text-align: center;
-    width: 60%;
-    height: 10px;
-    padding: 12px;
-}
-
-.caixa-dados .email i{
-    border: solid 1px;
-    background-color: dimgray;
-    font-size: 30px;
-}
-
-.caixa-dados .senha i{
-    border: solid 1px;
-    background-color: dimgray;
-    font-size: 30px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.276);
+    backdrop-filter: blur(20px);
+    width: 30%;
+    height: 40vh;
+    padding: 10px;
 }
 

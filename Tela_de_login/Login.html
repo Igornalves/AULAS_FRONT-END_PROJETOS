@@ -9,10 +9,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- desta forma aqui tambem vamos chama o arquivo css  -->
-    <link rel="stylesheet" href="/AULAS_FRONT-END_PROJETOS/Tela_de_login/css/Login.css">
+    <link rel="stylesheet" href="/Tela_de_login/css/Login.css">
 
     <!-- chamanos aqui o arquivo javascript  -->
-    <script src="/AULAS_FRONT-END_PROJETOS/Tela_de_login/js/Login.js"></script>
 
     <!-- atribuimos um titulo aqui  -->
     <title> Tela de Login </title>
@@ -22,76 +21,63 @@
 
     <div class="principal">
 
-        <div class="main">
+        <h1>
+            Login
+        </h1>
+        <p>
+            Entre com os dados corretamente para acessar nosso sistema.
+        </p>
 
-            <div class="titulo">
-                <h1>
-                    Login
-                </h1>
-                <p>
-                    Entre com os dados corretamente para acessar nosso sistema.
-                </p>
-            </div>
+        <div class="email">
+            <!-- <i class='bx bxs-user'></i> -->
+            <label for="">Email</label>
+            <input type="text" placeholder="@mail.com" required>
+        </div>
 
-            <div class="caixa-dados">
+        <div class="senha">
+            <!-- <i class='bx bxs-lock-alt'></i> -->
+            <label for="">Senha</label>
+            <input type="password" placeholder="password" required>
+        </div>
 
-                <div class="email">
 
-                    <i class='bx bxs-user'></i>
+        <div class="remember-me">
 
-                    <input type="text" placeholder="@mail.com" required>
+            <label>
+                <input type="checkbox">remember-me
+            </label>
 
-                </div>
-
-                <div class="senha">
-
-                    <i class='bx bxs-lock-alt'></i>
-
-                    <input type="password" placeholder="password" required>
-
-                </div>
-            </div>
-
-            <div class="remember-me">
-
-                <label>
-                    <input type="checkbox">remember-me
-                </label>
-
-                <a href="#">Esqueceu a senha?</a>
-                
-            </div>
-
-            <button type="submit" class="entra">Entrar</button>
-
-            <div class="inscreva-se">
-
-                <p>
-                    Não tem uma conta?
-                </p>
-
-                <a href="#">
-                    Inscreva-se
-                </a>
-
-            </div>
-
-            <div class="outro-acesso">
-
-                <h2>
-                    Logar Com
-                </h2>
-
-                <div class="imagem">
-                    <i class='bx bxl-facebook-square'></i>
-                    <i class='bx bxl-google'></i>
-                    <i class='bx bxl-microsoft'></i>
-                </div>
-
-            </div>
+            <a href="#">Esqueceu a senha?</a>
 
         </div>
 
+        <button type="submit" class="entra">Entrar</button>
+
+        <div class="inscreva-se">
+
+            <p>
+                Não tem uma conta?
+            </p>
+
+            <a href="#">
+                Inscreva-se
+            </a>
+
+        </div>
+
+        <div class="outro-acesso">
+
+            <h2>
+                Logar Com
+            </h2>
+
+            <div class="imagem">
+                <i class='bx bxl-facebook-square'></i>
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-microsoft'></i>
+            </div>
+
+        </div>
 
     </div>
 
