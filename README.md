@@ -17,17 +17,6 @@ Um projeto de um iniciante em programação no qual foi utilizado tecnologias co
 Aqui em meu repositorio estarei mostrando um pouco do que estou aprendendo sobre as linguagem de forma que possa ser util para outras pessoas tambem poderem aprender sobre o assunto.
 Em algums desse projetos dexarei aqui cometarios que ajudaram a entender um pouco do que estar acontecendo em dada um dos projetos.
 
-
-## Links Úteis
-
-Aqui é os links de outros repositorios que tenho em meu GitHub que possa se interressa:
-
-- [Linguagem-C](https://github.com/Igornalves/Linguagem-C)
-- [Projeto_Site-WhatsappBot](https://github.com/Igornalves/Projeto_Site-WhatsappBot)
-- [Linguagem-Python](https://github.com/Igornalves/Linguagem-Python)
-- [Linguagem-Java](https://github.com/Igornalves/Linguagem_Java)
-- [Biblioteca-React](https://github.com/Igornalves/Biblioteca-React)
-
 ---
 
 **Obrigado por ler! Espero que eu tenha ajudado voçê em seus estudos**.
